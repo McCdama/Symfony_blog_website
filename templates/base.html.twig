@@ -4,7 +4,7 @@
    See https://symfony.com/doc/current/templates.html#template-inheritance-and-layouts
 #}
 <!DOCTYPE html>
-<html lang="{{ app.request.locale }}">
+<html lang="{{ app.request.locale }}"  class="govuk-template ">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -17,7 +17,7 @@
         <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
     </head>
 
-    <body id="{% block body_id %}{% endblock %}">
+    <body id="{% block body_id %}{% endblock %}" class="govuk-template__body ">
 
         {% block header %}
             <header>

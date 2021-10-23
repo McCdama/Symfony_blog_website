@@ -7,6 +7,8 @@ $web-font-path: 'data:text/css;base64,';
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 $lato-font-path: '~lato-font/fonts';
 
+@import "~govuk-frontend/govuk/all";
+
 @import "~bootswatch/flatly/variables";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap";
 @import "~bootswatch/flatly/bootswatch";
